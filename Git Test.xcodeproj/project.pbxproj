@@ -13,6 +13,7 @@
 		CDBED5D91F531CD300D2F1B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBED5D71F531CD300D2F1B2 /* Main.storyboard */; };
 		CDBED5DB1F531CD300D2F1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBED5DA1F531CD300D2F1B2 /* Assets.xcassets */; };
 		CDBED5DE1F531CD300D2F1B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBED5DC1F531CD300D2F1B2 /* LaunchScreen.storyboard */; };
+		CDBED5E71F53250F00D2F1B2 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBED5E61F53250F00D2F1B2 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CDBED5DA1F531CD300D2F1B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDBED5DD1F531CD300D2F1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDBED5DF1F531CD300D2F1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBED5E51F53250F00D2F1B2 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCTest.h; path = ../CCTest.h; sourceTree = "<group>"; };
+		CDBED5E61F53250F00D2F1B2 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCTest.m; path = ../CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				CDBED5D41F531CD300D2F1B2 /* ViewController.h */,
 				CDBED5D51F531CD300D2F1B2 /* ViewController.m */,
 				CDBED5D71F531CD300D2F1B2 /* Main.storyboard */,
+				CDBED5E51F53250F00D2F1B2 /* CCTest.h */,
+				CDBED5E61F53250F00D2F1B2 /* CCTest.m */,
 				CDBED5DA1F531CD300D2F1B2 /* Assets.xcassets */,
 				CDBED5DC1F531CD300D2F1B2 /* LaunchScreen.storyboard */,
 				CDBED5DF1F531CD300D2F1B2 /* Info.plist */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDBED5D61F531CD300D2F1B2 /* ViewController.m in Sources */,
+				CDBED5E71F53250F00D2F1B2 /* CCTest.m in Sources */,
 				CDBED5D31F531CD300D2F1B2 /* AppDelegate.m in Sources */,
 				CDBED5D01F531CD300D2F1B2 /* main.m in Sources */,
 			);
